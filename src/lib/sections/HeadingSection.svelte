@@ -1,7 +1,7 @@
 <script>
+  import { navigate } from "svelte-routing";
+
   import SingleSection from "./SingleSection.svelte";
-
-
 </script>
 
 <SingleSection class="heading-background">
@@ -15,11 +15,10 @@
     <button
       data-aos="zoom-in"
       class="text-white p-4 mt-4 color border border-white hover:bg-gray-900 hover:border-white/0"
-      >MENU</button
+      on:click={() => navigate("/menu")}>MENU</button
     >
   </div>
 </SingleSection>
-
 
 <style>
   :global(.heading-background) {

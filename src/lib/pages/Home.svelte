@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { navigate } from "svelte-routing";
   import HeadingSection from "../sections/HeadingSection.svelte";
   import DoubleSection from "../sections/DoubleSection.svelte";
   document.title = "HOME | Cold Scoop"
@@ -28,6 +29,7 @@
     </div>
     <button
       class="text-black p-4 mt-4 color border border-black hover:bg-gray-900 hover:text-white"
+      on:click={() => navigate('/menu')}
       >MENU</button
     >
   </div>
@@ -44,6 +46,7 @@
     </div>
     <button
       class="text-white p-4 mt-4 color border border-white hover:bg-gray-900 hover:border-white/0"
+      on:click={() => navigate('/menu')}
       >MENU</button
     >
   </div>
@@ -61,6 +64,7 @@
     </div>
     <button
       class="text-black p-4 mt-4 color border border-black hover:bg-gray-900 hover:text-white"
+      on:click={() => navigate('/menu')}
       >MENU</button
     >
   </div>
