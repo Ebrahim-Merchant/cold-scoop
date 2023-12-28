@@ -8,11 +8,11 @@
   
   import AOS from "aos";
   AOS.init();
-  export let url = "home";
+  export let url = "/cold-scoop/home";
 </script>
 
 <Navbar />
-<Router url="{url}">
+<Router basepath="/cold-scoop" url="{url}">
     <Route path="/home"><Home /></Route>
     <Route path="/menu"><Menu /></Route>
     <Route path="/about"><About /></Route>

@@ -3,9 +3,9 @@
   import { navigate } from "svelte-routing";
   import NavButton from "./NavButton.svelte";
   let navButtonList = [
-    { buttonTxt: "Home", navigatePath: "/home" },
-    { buttonTxt: "Menu", navigatePath: "/menu" },
-    { buttonTxt: "About", navigatePath: "/about" },
+    { buttonTxt: "Home", navigatePath: "/cold-scoop/home" },
+    { buttonTxt: "Menu", navigatePath: "/cold-scoop/menu" },
+    { buttonTxt: "About", navigatePath: "/cold-scoop/about" },
   ];
   let logoSrc =
     "https://static.wixstatic.com/media/e9f42a_b9a668f7f3d44773979f98ccca448611~mv2.png/v1/fill/w_752,h_259,al_c,lg_1,q_85,enc_auto/small%20logo.png";
