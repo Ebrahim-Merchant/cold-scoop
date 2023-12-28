@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "docs": "vite build --base=/cold-scoop/",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
