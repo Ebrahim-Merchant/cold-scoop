@@ -15,7 +15,7 @@
     <button
       data-aos="zoom-in"
       class="text-white p-4 mt-4 color border border-white hover:bg-gray-900 hover:border-white/0"
-      on:click={() => navigate("/menu")}>MENU</button
+      on:click={() => navigate("/cold-scoop/menu")}>MENU</button
     >
   </div>
 </SingleSection>

@@ -29,7 +29,7 @@
     </div>
     <button
       class="text-black p-4 mt-4 color border border-black hover:bg-gray-900 hover:text-white"
-      on:click={() => navigate('/menu')}
+      on:click={() => navigate('/cold-scoop/menu')}
       >MENU</button
     >
   </div>
@@ -46,7 +46,7 @@
     </div>
     <button
       class="text-white p-4 mt-4 color border border-white hover:bg-gray-900 hover:border-white/0"
-      on:click={() => navigate('/menu')}
+      on:click={() => navigate('/cold-scoop/menu')}
       >MENU</button
     >
   </div>
@@ -64,7 +64,7 @@
     </div>
     <button
       class="text-black p-4 mt-4 color border border-black hover:bg-gray-900 hover:text-white"
-      on:click={() => navigate('/menu')}
+      on:click={() => navigate('/cold-scoop/menu')}
       >MENU</button
     >
   </div>
