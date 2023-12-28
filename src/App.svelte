@@ -8,12 +8,12 @@
   
   import AOS from "aos";
   AOS.init();
-  export let url = "";
+  export let url = "home";
 </script>
 
 <Navbar />
 <Router url="{url}">
-    <Route path="/"><Home /></Route>
+    <Route path="/home"><Home /></Route>
     <Route path="/menu"><Menu /></Route>
     <Route path="/about"><About /></Route>
 </Router>

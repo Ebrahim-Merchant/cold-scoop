@@ -3,7 +3,7 @@
   import { navigate } from "svelte-routing";
   import NavButton from "./NavButton.svelte";
   let navButtonList = [
-    { buttonTxt: "Home", navigatePath: "/" },
+    { buttonTxt: "Home", navigatePath: "/home" },
     { buttonTxt: "Menu", navigatePath: "/menu" },
     { buttonTxt: "About", navigatePath: "/about" },
   ];
